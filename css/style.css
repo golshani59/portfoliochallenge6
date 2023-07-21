@@ -53,3 +53,41 @@ h1{
   padding: 15px 30px;
  }
 
+ .row{
+  margin: 0;
+ }
+
+ .cols{
+  padding: 5%;;
+ }
+
+ .btn-branding-outline{
+  color: pink;
+  border:1px solid pink;
+  font-size: 18px;
+  padding: 15px 30px;
+
+ }
+
+ h2{
+  font-size: 52px;
+  font-weight: bold;
+  padding-bottom: 40px;
+ }
+@media(max-width:576px){
+  .desc{
+    padding-top: 20px;
+    padding-bottom: 20px;
+   }
+}
+
+@media(min-width:577px){
+  .desc{
+    padding-top: 180px;
+    padding-bottom: 180px;
+   }
+}
+
+ h1{
+  font-size: 74px;
+ }
