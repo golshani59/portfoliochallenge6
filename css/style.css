@@ -1,93 +1,102 @@
-
-:root{
-  --branding-color:pink;
-  --secondary-color:#f9f7fe;
-  --heading-font-family:"Playfair Display" serif;
-  --deafault-font-family:"Poppins",sans-serif;
+:root {
+  --branding-color: pink;
+  --secondary-color: #f9f7fe;
+  --heading-font-family: "Playfair Display" serif;
+  --deafault-font-family: "Poppins", sans-serif;
 }
-body{
-font-family: var(--deafault-font-family);
+body {
+  font-family: var(--deafault-font-family);
 }
 
-h1{
+h1 {
   font-size: 96px;
-  color:black;
+  color: black;
   font-weight: bold;
   font-family: var(--heading-font-family);
 }
 
-.hero h2{
+.hero h2 {
   font-size: 24px;
   font-weight: bold;
   font-family: var(--heading-font-family);
   line-height: 2;
 }
 
-.hero{
+.hero {
   text-align: center;
   background: #f8f9fa;
-  padding:160px 20px;
+  padding: 160px 20px;
 }
 
-.hero p{
+.hero p {
   font-size: 36px;
   font-weight: bold;
-  color:#272142;
-  margin:0;
- }
+  color: #272142;
+  margin: 0;
+}
 
- .btn{
+.btn {
   display: inline-block;
   font-weight: 400;
   text-align: center;
   text-decoration: none;
-  cursor:pointer;
-  vertical-align: middle; 
- 
- }
- .btn-branding{
+  cursor: pointer;
+  vertical-align: middle;
+}
+.btn-branding {
   background: var(--branding-color);
-  color:black;
+  color: black;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
- }
+}
 
- .row{
+.row {
   margin: 0;
- }
+}
 
- .cols{
-  padding: 5%;;
- }
+.cols {
+  padding: 5%;
+}
 
- .btn-branding-outline{
+.btn-branding-outline {
   color: pink;
-  border:1px solid pink;
+  border: 1px solid pink;
   font-size: 18px;
   padding: 15px 30px;
+}
 
- }
-
- h2{
+h2 {
   font-size: 52px;
   font-weight: bold;
   padding-bottom: 40px;
- }
-@media(max-width:576px){
-  .desc{
+}
+@media (max-width: 576px) {
+  .desc {
     padding-top: 20px;
     padding-bottom: 20px;
-   }
+  }
 }
 
-@media(min-width:577px){
-  .desc{
+@media (min-width: 577px) {
+  .desc {
     padding-top: 180px;
     padding-bottom: 180px;
-   }
+  }
 }
 
- h1{
+h1 {
   font-size: 74px;
- }
+}
+
+.about-section-content h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section-content h2 {
+  font-size: 18px;
+}
+.about-section-content p {
+  font-size: 16px;
+  line-height: 30px;
+}
