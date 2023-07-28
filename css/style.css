@@ -54,10 +54,10 @@ h1 {
 .row {
   margin: 0;
 }
-
+/* 
 .cols {
   padding: 5%;
-}
+} */
 
 .btn-branding-outline {
   color: pink;
@@ -70,6 +70,10 @@ h2 {
   font-size: 52px;
   font-weight: bold;
   padding-bottom: 40px;
+}
+
+h4 {
+  font-size: 48px;
 }
 @media (max-width: 576px) {
   .desc {
@@ -162,4 +166,49 @@ nav a {
 nav a:hover,
 nav li.active a {
   color: blueviolet;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: #f9f7fe;
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: blueviolet;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: blueviolet;
+  background: #f9f7fe;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: blueviolet;
+}
+
+@media (max-width: 900px) {
+  h4 {
+    font-size: 26px;
+  }
 }
